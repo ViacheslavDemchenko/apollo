@@ -122,18 +122,15 @@ textarea {
   background-color: #38383A;
   color: #fff;
   font-size: 14px;
-  font-weight: 700;
-  letter-spacing: 3px;
-  text-transform: uppercase;
 }
 @media (min-width: 992px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WebCademy\/lessons\/apollo_bootstrap_4\/less\/sections\/_menu\.less}line{font-family:\000039}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WebCademy\/lessons\/apollo_bootstrap_4\/less\/sections\/_menu\.less}line{font-family:\000037}}
   .menu {
     background-color: #38383A;
     padding: 23px 0 23px 0;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WebCademy\/lessons\/apollo_bootstrap_4\/less\/sections\/_menu\.less}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WebCademy\/lessons\/apollo_bootstrap_4\/less\/sections\/_menu\.less}line{font-family:\0000312}}
 .menu .menu__list__link {
   color: #FFF;
   text-decoration: none;
@@ -143,18 +140,18 @@ textarea {
   transition: all 0.3s ease-in-out;
 }
 @media (min-width: 992px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WebCademy\/lessons\/apollo_bootstrap_4\/less\/sections\/_menu\.less}line{font-family:\0000321}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WebCademy\/lessons\/apollo_bootstrap_4\/less\/sections\/_menu\.less}line{font-family:\0000319}}
   .menu .menu__list__link {
     padding: 0;
     display: inline;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WebCademy\/lessons\/apollo_bootstrap_4\/less\/sections\/_menu\.less}line{font-family:\0000326}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WebCademy\/lessons\/apollo_bootstrap_4\/less\/sections\/_menu\.less}line{font-family:\0000324}}
 .menu .menu__list__link:hover,
 .menu .menu__list__link.active {
   color: #ffcc00;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WebCademy\/lessons\/apollo_bootstrap_4\/less\/sections\/_menu\.less}line{font-family:\0000332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WebCademy\/lessons\/apollo_bootstrap_4\/less\/sections\/_menu\.less}line{font-family:\0000330}}
 .menu .menu__list {
   display: none;
   margin: 0;
@@ -166,7 +163,7 @@ textarea {
   background-color: #35577D;
 }
 @media (min-width: 992px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WebCademy\/lessons\/apollo_bootstrap_4\/less\/sections\/_menu\.less}line{font-family:\0000340}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WebCademy\/lessons\/apollo_bootstrap_4\/less\/sections\/_menu\.less}line{font-family:\0000338}}
   .menu .menu__list {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -174,24 +171,24 @@ textarea {
     background-color: transparent;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WebCademy\/lessons\/apollo_bootstrap_4\/less\/sections\/_menu\.less}line{font-family:\0000346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WebCademy\/lessons\/apollo_bootstrap_4\/less\/sections\/_menu\.less}line{font-family:\0000344}}
 .menu .menu__list__item {
   margin: 0;
   padding: 0;
   border-bottom: 1px solid #466a92;
 }
 @media (min-width: 992px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WebCademy\/lessons\/apollo_bootstrap_4\/less\/sections\/_menu\.less}line{font-family:\0000351}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WebCademy\/lessons\/apollo_bootstrap_4\/less\/sections\/_menu\.less}line{font-family:\0000349}}
   .menu .menu__list__item {
     border-bottom: none;
     padding: 0;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WebCademy\/lessons\/apollo_bootstrap_4\/less\/sections\/_menu\.less}line{font-family:\0000356}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WebCademy\/lessons\/apollo_bootstrap_4\/less\/sections\/_menu\.less}line{font-family:\0000354}}
 .menu .menu__list__item.active {
   color: #ffcc00;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WebCademy\/lessons\/apollo_bootstrap_4\/less\/sections\/_menu\.less}line{font-family:\0000363}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WebCademy\/lessons\/apollo_bootstrap_4\/less\/sections\/_menu\.less}line{font-family:\0000361}}
 .menu-mobile__toggle-btn {
   position: relative;
   display: block;
@@ -199,7 +196,7 @@ textarea {
   padding: 23px 15px 23px 15px;
   background-color: #38383A;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WebCademy\/lessons\/apollo_bootstrap_4\/less\/sections\/_menu\.less}line{font-family:\0000370}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WebCademy\/lessons\/apollo_bootstrap_4\/less\/sections\/_menu\.less}line{font-family:\0000368}}
 .menu-mobile__toggle-btn::before {
   position: absolute;
   content: "";
@@ -211,29 +208,29 @@ textarea {
   background-repeat: no-repeat;
   background-position: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WebCademy\/lessons\/apollo_bootstrap_4\/less\/sections\/_menu\.less}line{font-family:\0000382}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WebCademy\/lessons\/apollo_bootstrap_4\/less\/sections\/_menu\.less}line{font-family:\0000380}}
 .menu-mobile__toggle-btn:focus,
 .menu-mobile__toggle-btn:active {
   background-color: #16385F;
 }
 @media (min-width: 992px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WebCademy\/lessons\/apollo_bootstrap_4\/less\/sections\/_menu\.less}line{font-family:\0000387}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WebCademy\/lessons\/apollo_bootstrap_4\/less\/sections\/_menu\.less}line{font-family:\0000385}}
   .menu-mobile__toggle-btn {
     display: none;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WebCademy\/lessons\/apollo_bootstrap_4\/less\/sections\/_menu\.less}line{font-family:\0000392}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WebCademy\/lessons\/apollo_bootstrap_4\/less\/sections\/_menu\.less}line{font-family:\0000390}}
 .menu-mobile__toggle-btn--active {
   background-color: #16385F;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WebCademy\/lessons\/apollo_bootstrap_4\/less\/sections\/_menu\.less}line{font-family:\0000396}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WebCademy\/lessons\/apollo_bootstrap_4\/less\/sections\/_menu\.less}line{font-family:\0000394}}
 .container--mobile--no-padding {
   padding-left: 0;
   padding-right: 0;
   width: 100%;
 }
 @media (min-width: 992px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WebCademy\/lessons\/apollo_bootstrap_4\/less\/sections\/_menu\.less}line{font-family:\00003101}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WebCademy\/lessons\/apollo_bootstrap_4\/less\/sections\/_menu\.less}line{font-family:\0000399}}
   .container--mobile--no-padding {
     padding-left: 15px;
     padding-right: 15px;
@@ -241,7 +238,7 @@ textarea {
   }
 }
 @media (min-width: 1170px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WebCademy\/lessons\/apollo_bootstrap_4\/less\/sections\/_menu\.less}line{font-family:\00003107}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WebCademy\/lessons\/apollo_bootstrap_4\/less\/sections\/_menu\.less}line{font-family:\00003105}}
   .container--mobile--no-padding {
     width: 1170px;
   }
