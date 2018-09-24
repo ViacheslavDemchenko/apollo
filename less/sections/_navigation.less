@@ -1,0 +1,123 @@
+.navigation {
+	background-color: #38383A;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 700;
+	letter-spacing: 3.92px;
+	text-transform: uppercase;
+  	box-shadow: 0px 5px 10px 0px rgba(42, 73, 109, 1);
+  	z-index: 1;
+  	position: relative;
+	
+	@media (min-width: 992px) {
+		background-color: #38383A;
+		padding-top: 25px;
+		padding-bottom: 22px;
+		
+	}
+
+	ul {
+		display: none;
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+		justify-content: space-between;
+		background-color: #35577D;	
+
+		@media (min-width: 992px) {
+		display: flex;
+		background-color: #38383A;
+		
+		}
+		
+	}
+
+	li {
+		margin: 0;
+		padding: 0;
+		border-bottom: 1px solid #466A92;
+		
+		@media (min-width: 992px) {
+			border-bottom: none;
+			padding: 0;
+			background-color: #38383A;
+			display: block;	
+		}
+	
+		&:active {
+			color: #ffcc00;
+		}
+			
+	}
+
+	a {
+		color: #fff;
+		text-decoration: none;
+		padding-top: 23px;
+		padding-bottom: 23px;
+		padding-left: 15px;
+		padding-right: 15px;
+		display: block;
+		transition: all .3s ease-in-out;
+		
+		@media (min-width: 992px) {
+			padding: 0;
+			display: inline;	
+		}
+		
+		&:active,
+		&:hover {
+			color: #ffcc00;
+		}
+	}
+}
+
+.navigation__toggle-button {
+	display: block;
+	position: relative;
+	cursor: pointer;
+	background-color: #38383A;
+	padding-top: 25px;
+	padding-bottom: 22px;
+	padding-left: 15px;
+	padding-right: 15px;
+	
+	&:before {
+		content: '';
+		position: absolute;
+		top: 25px;
+		right: 15px;
+		width: 25px;
+		height: 20px;
+		background-image: url('../img/icons/navigation-icon.png');
+		background-repeat: no-repeat;
+	}
+	&:focus,
+	&:active {
+		background-color: #16385F;
+	}
+
+	@media (min-width: 992px) {
+		display: none;
+	}
+}
+
+.navigation__toggle-button--active {
+	background-color: #16385F;
+}
+
+.container--mobile--no-padding {
+	padding-left: 0;
+	padding-right: 0;
+	width: 100%;
+	
+	@media (min-width: 992px) {
+		padding-left: 15px;
+		padding-right: 15px;
+		width: 970px;
+	}
+
+	@media (min-width: 1170px) {
+		width: 1170px;
+	}
+}
