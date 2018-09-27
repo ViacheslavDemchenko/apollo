@@ -112,14 +112,20 @@ body {
   @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WebCademy\/lessons\/apollo_bootstrap_4\/less\/base\/_base\.less}line{font-family:\0000324}}
   .section__title {
     font-size: 38px;
-    margin-bottom: 40px;
+    margin-bottom: 52px;
   }
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WebCademy\/lessons\/apollo_bootstrap_4\/less\/base\/_base\.less}line{font-family:\0000330}}
 .section {
   padding: 60px 0 67px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WebCademy\/lessons\/apollo_bootstrap_4\/less\/base\/_base\.less}line{font-family:\0000334}}
+@media (min-width: 768px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WebCademy\/lessons\/apollo_bootstrap_4\/less\/base\/_base\.less}line{font-family:\0000333}}
+  .section {
+    padding: 60px 0 0 0;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WebCademy\/lessons\/apollo_bootstrap_4\/less\/base\/_base\.less}line{font-family:\0000338}}
 .block {
   background: #FFDB4C;
   padding: 20px;
@@ -130,11 +136,11 @@ body {
   margin-top: 30px;
   margin-bottom: 30px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WebCademy\/lessons\/apollo_bootstrap_4\/less\/base\/_base\.less}line{font-family:\0000346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WebCademy\/lessons\/apollo_bootstrap_4\/less\/base\/_base\.less}line{font-family:\0000350}}
 .line {
   border-top: 1px solid #EAEFF5;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WebCademy\/lessons\/apollo_bootstrap_4\/less\/base\/_base\.less}line{font-family:\0000350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WebCademy\/lessons\/apollo_bootstrap_4\/less\/base\/_base\.less}line{font-family:\0000354}}
 .footer {
   background-color: #252525;
 }
@@ -478,17 +484,21 @@ body {
 .benefits-block:last-child {
   padding-bottom: 0;
 }
-@media (min-width: 762px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WebCademy\/lessons\/apollo_bootstrap_4\/less\/sections\/_benefits\.less}line{font-family:\0000310}}
-  .benefits-block:nth-last-child(2) {
-    padding-bottom: 0;
+@media (min-width: 768px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WebCademy\/lessons\/apollo_bootstrap_4\/less\/sections\/_benefits\.less}line{font-family:\000038}}
+  .benefits-block {
+    padding-bottom: 51px;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WebCademy\/lessons\/apollo_bootstrap_4\/less\/sections\/_benefits\.less}line{font-family:\0000314}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WebCademy\/lessons\/apollo_bootstrap_4\/less\/sections\/_benefits\.less}line{font-family:\0000311}}
+  .benefits-block:nth-last-child(2) {
+    padding-bottom: 52px;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WebCademy\/lessons\/apollo_bootstrap_4\/less\/sections\/_benefits\.less}line{font-family:\0000315}}
   .benefits-block:last-child {
-    padding-bottom: 0;
+    padding-bottom: 52px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WebCademy\/lessons\/apollo_bootstrap_4\/less\/sections\/_benefits\.less}line{font-family:\0000320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WebCademy\/lessons\/apollo_bootstrap_4\/less\/sections\/_benefits\.less}line{font-family:\0000321}}
 .benefits-block__title {
   margin-bottom: 15px;
   font-weight: 700;
@@ -497,25 +507,25 @@ body {
   color: #333;
 }
 @media (min-width: 1200px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WebCademy\/lessons\/apollo_bootstrap_4\/less\/sections\/_benefits\.less}line{font-family:\0000327}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WebCademy\/lessons\/apollo_bootstrap_4\/less\/sections\/_benefits\.less}line{font-family:\0000328}}
   .benefits-block__title {
     font-size: 22px;
     line-height: 28px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WebCademy\/lessons\/apollo_bootstrap_4\/less\/sections\/_benefits\.less}line{font-family:\0000333}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WebCademy\/lessons\/apollo_bootstrap_4\/less\/sections\/_benefits\.less}line{font-family:\0000334}}
 .benefits-block__text {
   font-size: 14px;
   line-height: 24px;
   color: #777;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WebCademy\/lessons\/apollo_bootstrap_4\/less\/sections\/_benefits\.less}line{font-family:\0000339}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WebCademy\/lessons\/apollo_bootstrap_4\/less\/sections\/_benefits\.less}line{font-family:\0000340}}
 .benefits-block__img-wrap {
   height: 130px;
   margin-bottom: 18px;
 }
 @media (min-width: 1200px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WebCademy\/lessons\/apollo_bootstrap_4\/less\/sections\/_benefits\.less}line{font-family:\0000343}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WebCademy\/lessons\/apollo_bootstrap_4\/less\/sections\/_benefits\.less}line{font-family:\0000344}}
   .benefits-block__img-wrap {
     margin-bottom: 24px;
   }
