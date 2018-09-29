@@ -1,0 +1,92 @@
+.subtitle {
+	color: #777777;
+    font-family: 'Noto Sans';
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+.tarif {
+	text-align: center;
+	border-radius: 7px;
+	box-shadow: 0 10px 40px rgba(99, 117, 138, 0.3);
+	background-color: #FFF;
+
+	padding-top: 34px;
+	padding-bottom: 47px;
+	padding-left: 25px;
+	padding-right: 25px;
+
+	margin-bottom: 40px;
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+
+	@media (min-width: 768px) {
+		margin-bottom: 0;
+	}
+}
+
+.tarif__type {
+	color: #242526;
+	font-family: 'Noto Sans';
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: 0.96px;
+	margin-bottom: 20px;
+}
+
+.tarif__price {
+	color: #242526;
+	font-family: 'Noto Sans';
+	font-size: 48px;
+	line-height: 1;
+	font-weight: 700;
+	margin-bottom: 24px;
+
+	&::after {
+		content: "c";
+		font-family: 'Rouble';
+	}
+}
+
+.tarif__period {
+	color: #242526;
+	font-family: 'Noto Sans';
+	font-size: 12px;
+	letter-spacing: 0.3px;
+	margin-bottom: 35px;
+}
+
+.tarif__benefits {
+	color: #242526;
+	font-family: 'Noto Sans';
+	font-size: 14px;
+	line-height: 20px;
+	margin-bottom: 40px;
+
+	ul{
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+
+		li {
+			margin: 0;
+			padding: 0;
+			margin-bottom: 10px;
+			
+			&::before {
+				content: "";
+				display: inline-block;
+				width: 12px;
+				height: 12px;
+				background-image: url("../img/icons/arrow-down.jpg");
+				background-repeat: no-repeat;
+				background-position: left 2px;
+				margin-right: 10px;
+			}
+		}
+	}
+}

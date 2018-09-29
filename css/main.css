@@ -97,7 +97,7 @@ html {
 body {
   font-size: 1.6rem;
   /* 10px * 1.6 = 16px */
-  font-family: 'Noto Sans';
+  font-family: "Noto Sans";
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WebCademy\/lessons\/apollo_bootstrap_4\/less\/base\/_base\.less}line{font-family:\0000316}}
 .block {
@@ -110,11 +110,18 @@ body {
   margin-top: 30px;
   margin-bottom: 30px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WebCademy\/lessons\/apollo_bootstrap_4\/less\/base\/_base\.less}line{font-family:\0000328}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WebCademy\/lessons\/apollo_bootstrap_4\/less\/base\/_base\.less}line{font-family:\0000327}}
+p {
+  color: #777777;
+  font-family: "NotoSans";
+  font-size: 14px;
+  line-height: 24px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WebCademy\/lessons\/apollo_bootstrap_4\/less\/base\/_base\.less}line{font-family:\0000334}}
 .line {
   border-top: 1px solid #EAEFF5;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WebCademy\/lessons\/apollo_bootstrap_4\/less\/base\/_base\.less}line{font-family:\0000332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WebCademy\/lessons\/apollo_bootstrap_4\/less\/base\/_base\.less}line{font-family:\0000338}}
 .footer {
   background-color: #252525;
 }
@@ -197,6 +204,47 @@ body {
   .section--m-p-b-0 {
     padding-bottom: 0;
   }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WebCademy\/lessons\/apollo_bootstrap_4\/less\/blocks\/_button\.less}line{font-family:\000031}}
+.tarif__button {
+  -webkit-box-shadow: 0 8px 16px #ABABAB;
+          box-shadow: 0 8px 16px #ABABAB;
+  background-color: #252525;
+  color: #FFF;
+  font-family: 'Noto Sans';
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1.12px;
+  text-align: center;
+  line-height: 1;
+  display: inline-block;
+  padding: 13px 44px;
+  border-radius: 22px;
+  border: none;
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WebCademy\/lessons\/apollo_bootstrap_4\/less\/blocks\/_button\.less}line{font-family:\0000318}}
+.tarif__button:hover,
+.tarif__button:active,
+.tarif__button:focus {
+  background-color: #FFC80A;
+  text-decoration: none;
+  color: #FFF;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WebCademy\/lessons\/apollo_bootstrap_4\/less\/blocks\/_button\.less}line{font-family:\0000327}}
+.button--orange {
+  background-color: #FFC80A;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WebCademy\/lessons\/apollo_bootstrap_4\/less\/blocks\/_button\.less}line{font-family:\0000332}}
+.button--orange:hover,
+.button--orange:active,
+.button--orange:focus {
+  background-color: #FFE400;
+  text-decoration: none;
+  color: #000;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WebCademy\/lessons\/apollo_bootstrap_4\/less\/sections\/_logo\.less}line{font-family:\000031}}
 .logo {
@@ -600,4 +648,98 @@ body {
   .service-description__img--xs-m-b-20 {
     margin-bottom: 0;
   }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WebCademy\/lessons\/apollo_bootstrap_4\/less\/sections\/_tarifs\.less}line{font-family:\000031}}
+.subtitle {
+  color: #777777;
+  font-family: 'Noto Sans';
+  font-size: 14px;
+  line-height: 24px;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WebCademy\/lessons\/apollo_bootstrap_4\/less\/sections\/_tarifs\.less}line{font-family:\0000310}}
+.tarif {
+  text-align: center;
+  border-radius: 7px;
+  -webkit-box-shadow: 0 10px 40px rgba(99, 117, 138, 0.3);
+          box-shadow: 0 10px 40px rgba(99, 117, 138, 0.3);
+  background-color: #FFF;
+  padding-top: 34px;
+  padding-bottom: 47px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-bottom: 40px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WebCademy\/lessons\/apollo_bootstrap_4\/less\/sections\/_tarifs\.less}line{font-family:\0000323}}
+.tarif:last-child {
+  margin-bottom: 0;
+}
+@media (min-width: 768px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WebCademy\/lessons\/apollo_bootstrap_4\/less\/sections\/_tarifs\.less}line{font-family:\0000327}}
+  .tarif {
+    margin-bottom: 0;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WebCademy\/lessons\/apollo_bootstrap_4\/less\/sections\/_tarifs\.less}line{font-family:\0000332}}
+.tarif__type {
+  color: #242526;
+  font-family: 'Noto Sans';
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.96px;
+  margin-bottom: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WebCademy\/lessons\/apollo_bootstrap_4\/less\/sections\/_tarifs\.less}line{font-family:\0000341}}
+.tarif__price {
+  color: #242526;
+  font-family: 'Noto Sans';
+  font-size: 48px;
+  line-height: 1;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WebCademy\/lessons\/apollo_bootstrap_4\/less\/sections\/_tarifs\.less}line{font-family:\0000349}}
+.tarif__price::after {
+  content: "c";
+  font-family: 'Rouble';
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WebCademy\/lessons\/apollo_bootstrap_4\/less\/sections\/_tarifs\.less}line{font-family:\0000355}}
+.tarif__period {
+  color: #242526;
+  font-family: 'Noto Sans';
+  font-size: 12px;
+  letter-spacing: 0.3px;
+  margin-bottom: 35px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WebCademy\/lessons\/apollo_bootstrap_4\/less\/sections\/_tarifs\.less}line{font-family:\0000363}}
+.tarif__benefits {
+  color: #242526;
+  font-family: 'Noto Sans';
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 40px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WebCademy\/lessons\/apollo_bootstrap_4\/less\/sections\/_tarifs\.less}line{font-family:\0000370}}
+.tarif__benefits ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WebCademy\/lessons\/apollo_bootstrap_4\/less\/sections\/_tarifs\.less}line{font-family:\0000375}}
+.tarif__benefits ul li {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WebCademy\/lessons\/apollo_bootstrap_4\/less\/sections\/_tarifs\.less}line{font-family:\0000380}}
+.tarif__benefits ul li::before {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background-image: url("../img/icons/arrow-down.jpg");
+  background-repeat: no-repeat;
+  background-position: left 2px;
+  margin-right: 10px;
 }
