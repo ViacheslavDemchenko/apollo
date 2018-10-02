@@ -1,6 +1,5 @@
 $(document).ready( () => {
 
-
 	let toggle = $('#navigation-toggle');
 	let nav = $('.navigation ul');
 
@@ -18,6 +17,13 @@ $(document).ready( () => {
 		}
 	});
 
+	let w = $(window).width();
+		if (w < 992) {
+			$('nav.navigation a').on('click', () => {
+				nav.slideToggle();
+			});
+		}
+
 	$('#slider-top').owlCarousel({
 		singleItem: true,
 		navigation: true,
@@ -25,9 +31,7 @@ $(document).ready( () => {
 		navigationText: ["",""],
 		slideSpeed: 800
 	})
+
+	$("nav a,a[href='#top'],a[rel='m_PageScroll2id'],a.PageScroll2id").mPageScroll2id({highlightSelector:"nav a"
+	});
 });
-
-	
-
-
-	
