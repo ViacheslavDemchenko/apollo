@@ -615,18 +615,17 @@ p {
     margin-bottom: 24px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WebCademy\/lessons\/apollo_bootstrap_4\/less\/sections\/_service-description\.less}line{font-family:\000031}}
-.service-description__text {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WebCademy\/lessons\/apollo_bootstrap_4\/less\/sections\/_service-description\.less}line{font-family:\000033}}
+.service-description__text p {
+  margin: 0;
+  margin-bottom: 22px;
+  font-family: 'Noto Sans';
+  font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   color: #777;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WebCademy\/lessons\/apollo_bootstrap_4\/less\/sections\/_service-description\.less}line{font-family:\000036}}
-.service-description__text p {
-  margin: 0;
-  margin-bottom: 22px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WebCademy\/lessons\/apollo_bootstrap_4\/less\/sections\/_service-description\.less}line{font-family:\0000312}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WebCademy\/lessons\/apollo_bootstrap_4\/less\/sections\/_service-description\.less}line{font-family:\0000314}}
 .service-description__button-arrow {
   width: 40px;
   height: 40px;
@@ -636,12 +635,12 @@ p {
   background-position: left top;
   background-size: cover;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WebCademy\/lessons\/apollo_bootstrap_4\/less\/sections\/_service-description\.less}line{font-family:\0000322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WebCademy\/lessons\/apollo_bootstrap_4\/less\/sections\/_service-description\.less}line{font-family:\0000324}}
 .service-description__img--xs-m-b-20 {
   margin-bottom: 20px;
 }
 @media (min-width: 768px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WebCademy\/lessons\/apollo_bootstrap_4\/less\/sections\/_service-description\.less}line{font-family:\0000325}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/WebCademy\/lessons\/apollo_bootstrap_4\/less\/sections\/_service-description\.less}line{font-family:\0000327}}
   .service-description__img--xs-m-b-20 {
     margin-bottom: 0;
   }
